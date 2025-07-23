@@ -26,7 +26,7 @@ author:
   name             : "Jianqiao Zhu"
   pronouns         : # example: "she/her"  
   bio              : "Sun Yat-sen University"
-  location         : "Location"
+  location         : "China Guangdong"
   employer         : 
   uri              : # URL
   email            : "zhujq33@mail2.sysu.edu.cn" 
@@ -120,7 +120,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  #hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -217,16 +217,16 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
